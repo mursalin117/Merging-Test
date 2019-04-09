@@ -9,5 +9,7 @@ public class Calculator{
 		a = in.nextDouble();
 		b = in.nextDouble();
 		double c = sum(a, b);
+				
 	}
+	double sum() {}
 }
