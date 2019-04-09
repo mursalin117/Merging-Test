@@ -8,5 +8,6 @@ public class Calculator{
 		double a, b;
 		a = in.nextDouble();
 		b = in.nextDouble();
+		double c = sum(a, b);
 	}
 }
