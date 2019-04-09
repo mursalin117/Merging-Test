@@ -6,4 +6,7 @@ public class Calculator{
 	double sum(double a, double b) {
 		return (a + b);
 	}
+	double sub(double a, double b) {
+		return (a - b);
+	}
 }
