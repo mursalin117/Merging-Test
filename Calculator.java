@@ -11,5 +11,7 @@ public class Calculator{
 		double c = sum(a, b);
 				
 	}
-	double sum() {}
+	double sum(double a, double b) {
+		return a + b;
+	}
 }
