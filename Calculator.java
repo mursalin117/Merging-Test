@@ -1,5 +1,10 @@
 import java.util.*;
 
+/*
+Simple program:
+	-> Add two numbers.
+	-> Subtract two numbers.
+*/
 public class Calculator{
 
 	public static void main(String[] args) {
