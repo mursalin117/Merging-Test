@@ -3,18 +3,27 @@ import java.util.*;
 public class Calculator{
 
 	public static void main(String[] args) {
-		
 		Scanner in = new Scanner(System.in);
 		double a, b;
 		a = in.nextDouble();
 		b = in.nextDouble();
-		double c = sum(a, b);
-				
+        System.out.println(sum(a, b));
+        System.out.println(sub(a, b));
+        System.out.println(mul(a, b));
+        System.out.println(div(a, b));
 	}
-	double sum(double a, double b) {
+	static double sum(double a, double b) {
 		return a + b;
 	}
-	double sub(double a, double b) {
-		return (a - b);
+	static double sub(double a, double b) {
+		return a - b;
 	}
+
+	static double mul(double a, double b) {
+		return a * b;
+    }
+
+	static double div(double a, double b) {
+		return a / b;
+    }
 }
